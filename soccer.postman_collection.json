@@ -1,0 +1,26 @@
+{
+	"info": {
+		"_postman_id": "a3d4a22a-0ca7-4935-8d2c-8200d5042f35",
+		"name": "soccer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://api.football-data.org",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.football-data.org",
+					"protocol": "https",
+					"host": [
+						"api",
+						"football-data",
+						"org"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
