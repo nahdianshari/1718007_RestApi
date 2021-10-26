@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "4a9a6cb9-fd92-4583-92ee-0ff87573f1f3",
+		"name": "omdbapikey",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://www.omdbapi.com?apikey=fbb4b82&s=Blade",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://www.omdbapi.com?apikey=fbb4b82&s=Blade",
+					"protocol": "http",
+					"host": [
+						"www",
+						"omdbapi",
+						"com"
+					],
+					"query": [
+						{
+							"key": "apikey",
+							"value": "fbb4b82"
+						},
+						{
+							"key": "s",
+							"value": "Blade"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
